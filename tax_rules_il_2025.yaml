@@ -1,0 +1,13 @@
+# Israeli personal income tax – DEMO rules (update as needed).
+# Annual brackets (ILS) and marginal rates; surtax 3% above threshold.
+brackets:
+  - { up_to: 84120,  rate: 0.10 }
+  - { up_to: 120720, rate: 0.14 }
+  - { up_to: 193800, rate: 0.20 }
+  - { up_to: 269280, rate: 0.31 }
+  - { up_to: 560280, rate: 0.35 }
+  - { up_to: 721560, rate: 0.47 }
+surtax_threshold: 721560
+surtax_rate: 0.03
+currency: "ILS"
+notes: "Demo only. Does not include credits (נקודות זיכוי), NI/Health, or VAT."
